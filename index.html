@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/swiper.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Химчистка авто</title>
+</head>
+<body id="body">
+    <nav id="nav">
+        <div class="container">
+            <div class="nav__elements">
+                <a class="nav__logo" href=""><i class="fa-solid fa-car-on"></i></a>
+                <div class="nav__links">
+                    <a href="#aboutus">О нас</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                <div class="nav__contact">
+                    <a href="https://t.me/salonchist"><span>Напишите нам: </span><i class="fa-brands fa-telegram"></i></a>
+                    <!-- <a href="https://wa.me/905545884128"><i class="fa-brands fa-whatsapp"></i></a> -->
+                </div>
+                <button id="hamburger" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="header__elements">
+                <div class="header__info">
+                    <h1 >Химчистка автомобилей в Анталии</h1>
+                    <hr>
+                    <ul>
+                        <li>
+                            Чистка салона с выездом от <span>350 tl</span>
+                        </li>
+                        <li>
+                            Время и место выбираете вы
+                        </li>
+                        <li>
+                            Мы говорим на русском языке
+                        </li>
+                    </ul>
+                    <a href="#contact">Оставить заявку</a>
+                </div>
+                <div class="header__foto">
+                    <div class="swiper header__foto__swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/1.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/3.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="aboutus" class="aboutus">
+        <div class="container">
+            <h2 class="animation-element">
+                О нас
+            </h2>
+            <hr class="title-line">
+            <div class="aboutus__list">
+                <div class="aboutus__item one-paragraph">
+                    <h3>Регион</h3>
+                    <i  class="aboutus__item-icons fa-solid fa-city"></i>
+                    <p>Работаем по всей Анталии</p>
+                </div>
+                <div class="aboutus__item two-paragraph">
+                    <h3>Адрес</h3>
+                    <i class="aboutus__item-icons fa-solid fa-location-dot"></i>
+                    <p>Наша команда готова приехать к вам</p>
+                </div>
+                <div class="aboutus__item three-paragraph">
+                    <h3>Качество</h3>
+                    <i class="aboutus__item-icons fa-solid fa-circle-check"></i>
+                    <p>Работаем ответственно и качественно</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="animation-element">Услуги</h2>
+            <hr class="title-line">
+            <div class="services__elements">
+                <div class="services__list services__item">
+                    <h3>Вы получаете:</h3>
+                    <ul>
+                        <li>
+                            Чистка:<br>сидений, пола, ковриков
+                        </li>
+                        <li>
+                            Мойка:<br>всех пластиковых поверхностей, дверных карт
+                        </li>
+                        <li>
+                            Чистка багажного отделения
+                        </li>
+                        <li>
+                            Выведение въевшихся пятен
+                        </li>
+                        <li>
+                            Устранение неприятных запахов
+                        </li>
+                    </ul>
+                </div>
+                <div class="price__list services__item">
+                    <h3>Стоимость:</h3>
+                    <p>Полная чистка салона и багажного отделения:</p>
+                    <span class="cost">450tl</span>
+                    <p>Чистка кресел:</p>
+                    <span class="cost">350tl</span>
+                    <div class="sale">
+                         <h3>Скидки:</h3>
+                     <ul>
+                         <li>10% скидка <span class="focus">за каждого</span> приведённого друга</li>
+                        <li>Постоянным клиентам скидка 10% <br>(при заказе от 2 и более раз)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="animation-element">Оставьте заявку</h2>
+            <hr class="title-line">
+            <h3>С вами сразу же свяжутся</h3>
+            <form name="order" target="form-iframe" method="post" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScqWBKGrgfQ1tZKLbdN3SQ8Ca0uwPxG5QfuhZfCO99y1PtaXg/formResponse" class="contact__form">
+                <iframe name="form-iframe"></iframe>
+                <div class="wrapper">Заявка отправлена</div>
+                <input required name="entry.75628526" type="text" placeholder="Ваше имя">
+                <label for="">Ваш район:</label>
+                <div class="contact__select" >
+                    <select required name="entry.645036961" id="">
+                        <option value="Konyaalti">Konyaalti</option>
+                        <option value="Muratpasa">Muratpasa</option>
+                        <option value="Kepez">Kepez</option>
+                        <option value="Lara">Lara</option>
+                    </select>
+                </div>
+                <input required name="entry.1364955552" type="tel" placeholder="Телефон">
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer__elements">
+                <p class="footer__tell">+7 (926) 838-18-55</p>
+                <p>Copyright © 2022. Все права защищены</p>
+                <div class="footer__contact">
+                    <a href="https://t.me/salonchist"> <span>Напишите нам:</span><i class="fa-brands fa-telegram"></i></a>
+                    <!-- <a href="#"><i class="fab fa-whatsapp"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/801be297c3.js" crossorigin="anonymous"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
